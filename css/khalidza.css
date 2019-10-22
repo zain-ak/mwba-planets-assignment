@@ -1,0 +1,97 @@
+@media screen and (orientation: portrait) {
+	#planetList {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 10px;
+	}
+
+	header {
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		color: white;
+		margin-bottom: 30px;
+		font-style: italic;
+		font-size: 0.75em;
+	}
+	
+	footer {
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		color: white;
+		margin-top: 30px;
+		font-style: italic;
+		font-size: 0.75em;
+	}
+}
+
+@media screen and (orientation: landscape) {
+	#planetList {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 10px;
+	}
+
+	header {
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		color: white;
+		margin-bottom: 5px;
+		font-style: italic;
+		font-size: 0.75em;
+	}
+
+	footer {
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		color: white;
+		margin-top: 15px;
+		font-style: italic;
+		font-size: 0.75em;
+	}
+}
+
+body {
+	background: url(../img/space.jpeg);
+	/* background-color: #040034; */
+}
+
+ul {
+	display: flex;
+  justify-content: space-around;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul li {
+	padding: 10px;
+	list-style-image: none;
+	list-style-type: none;
+	background-color: #514a004c;
+	/* background: url(../img/space.jpeg); */
+}
+
+a {
+	align-content: center;
+	text-decoration: none;
+	font-size: 1.35em;
+	color: white; 
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 8em;
+	vertical-align: center;
+}
+
+#planetName {
+	color: white;
+	font-size: 2.0em;
+	font-family: Arial, Helvetica, sans-serif;
+	/* margin-left: 25px; */
+}
+
+#planetInfo {
+	margin-left: 10px;
+	color: white;
+	font-size: 1.15em;
+	font-family: Arial, Helvetica, sans-serif;
+}
